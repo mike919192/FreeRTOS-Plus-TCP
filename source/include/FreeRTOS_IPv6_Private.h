@@ -1,5 +1,5 @@
 /*
- * FreeRTOS+TCP V4.3.3
+ * FreeRTOS+TCP V4.3.4
  * Copyright (C) 2022 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
  *
  * SPDX-License-Identifier: MIT
@@ -131,6 +131,8 @@
  * of the two structs. */
 struct xNetworkEndPoint;
 struct xNetworkInterface;
+
+#define ipICMPv6_GENERAL_FIELD_SIZE    ( 4U )
 
 #include "pack_struct_start.h"
 struct xIP_HEADER_IPv6
